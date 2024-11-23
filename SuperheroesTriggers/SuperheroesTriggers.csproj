@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\shield.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\arrow.png" />
+    <None Remove="Assets\avengers.png" />
+    <None Remove="Assets\shield.ico" />
+    <None Remove="Assets\xmen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\shield.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\arrow.png" />
+    <Resource Include="Assets\avengers.png" />
+    <Resource Include="Assets\shield.ico" />
+    <Resource Include="Assets\xmen.png" />
+  </ItemGroup>
+
+</Project>
